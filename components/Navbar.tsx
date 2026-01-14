@@ -48,7 +48,7 @@ export default function Navbar({ onMenuClick, onSnapchatClick, onMapClick }: Nav
 
           <div className="flex items-center gap-3 sm:gap-6">
             <NavButton
-              icon={<UtensilsCrossed className="w-5 h-5" />}
+              icon={<UtensilsCrossed className="w-10 h-10" />}
                           label="Menu"
               onClick={onMenuClick}
               scrolled={scrolled}
@@ -59,8 +59,8 @@ export default function Navbar({ onMenuClick, onSnapchatClick, onMapClick }: Nav
               <Image
                 src="/Google.png"
                 alt="Directions"
-                width={20}
-                height={20}
+                width={40}
+                height={40}
               />
           }
               label="Directions"
@@ -72,8 +72,8 @@ export default function Navbar({ onMenuClick, onSnapchatClick, onMapClick }: Nav
               icon={    <Image
                 src="/snapchatq.png"
                 alt="snatpchat"
-                width={20}
-                height={20}
+                width={40}
+                height={40}
               />
           }
               label="Filter"

@@ -14,15 +14,15 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: 'Sophia & Alexander | Wedding - February 18, 2026',
+  title: 'Haneefah & Zhikrullah | Wedding - February 14, 2026',
   description: 'Join us for our wedding celebration. View the menu, get directions, and capture memories with our exclusive Snapchat lens.',
-  keywords: ['wedding', 'celebration', 'Sophia', 'Alexander', 'February 2026'],
+  keywords: ['wedding', 'celebration', 'Haneefah', 'Zhikrullah', 'February 2026'],
   openGraph: {
-    title: 'Sophia & Alexander | Wedding',
+    title: 'Haneefah & Zhikrullah | Wedding',
     description: 'Join us for our wedding celebration on February 18, 2026',
     images: [
       {
-        url: 'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        url: 'https://res.cloudinary.com/dr0qnjp1s/image/upload/v1768422637/IMG_57041_vtpvy7.jpg?auto=compress&cs=tinysrgb&w=1200',
         width: 1200,
         height: 630,
       },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sophia & Alexander | Wedding',
+    title: 'Haneefah & Zhikrullah | Wedding',
     description: 'Join us for our wedding celebration',
   },
 };
