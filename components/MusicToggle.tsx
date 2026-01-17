@@ -87,7 +87,7 @@ export default function MusicToggle() {
 
     audio.muted = true;
     audio.volume = 1;
-    audio.playsInline = true;
+    audio.setAttribute('playsinline', 'true');
 
     audio
       .play()
