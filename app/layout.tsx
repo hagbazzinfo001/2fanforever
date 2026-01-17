@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   keywords: ['wedding', 'celebration', 'Haneefah', 'Zhikrullah', 'February 2026'],
   openGraph: {
     title: 'Haneefah & Zhikrullah | Wedding',
-    description: 'Join us for our wedding celebration on February 18, 2026',
+    description: 'Join us for our wedding celebration on February 14, 2026',
     images: [
       {
         url: 'https://res.cloudinary.com/dr0qnjp1s/image/upload/v1768422637/IMG_57041_vtpvy7.jpg?auto=compress&cs=tinysrgb&w=1200',

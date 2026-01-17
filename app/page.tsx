@@ -43,14 +43,14 @@ export default function Home() {
       <HeroCarousel />
 
       <CountdownTimer />
-
+      <div id="snapchat-section">
+        <SnapchatButton />
+      </div>
       <div id="map-section">
         <MapSection />
       </div>
 
-      <div id="snapchat-section">
-        <SnapchatButton />
-      </div>
+   
 
       <FoodMenuModal isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
 

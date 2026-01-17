@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Camera } from 'lucide-react';
-
+import Image from 'next/image';
 interface SnapchatButtonProps {
   onClick?: () => void;
 }
@@ -74,7 +74,7 @@ export default function SnapchatButton({ onClick }: SnapchatButtonProps) {
             className="mb-6 flex justify-center"
           >
             <div className="bg-white rounded-full p-4 shadow-lg">
-              <Camera className="w-8 h-8 text-emerald-600" />
+              <Image src="/snapchatq.png" alt="Snapchat" width={54} height={54} />
             </div>
           </motion.div>
 
@@ -91,8 +91,9 @@ export default function SnapchatButton({ onClick }: SnapchatButtonProps) {
             onClick={handleClick}
             className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-300"
           >
-            <Camera className="w-5 h-5" />
-            Open Snapchat Lens
+            <Image src="/snapchatq.png" alt="Snapchat" width={24} height={24} />
+            {/* <Camera className="w-5 h-5" /> */}
+            Open Snapchat Len
           </motion.button>
         </motion.div>
       </div>
